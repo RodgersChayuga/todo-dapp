@@ -1,0 +1,63 @@
+# =============== Solidity Folder ===============
+
+smart-contracts/node_modules
+smart-contracts/.env
+
+# Hardhat files
+smart-contracts/cache
+smart-contracts/artifacts
+
+# TypeChain files
+smart-contracts/typechain
+smart-contracts/typechain-types
+
+# solidity-coverage files
+smart-contracts/coverage
+smart-contracts/coverage.json
+
+# Hardhat Ignition default folder for deployments against a local node
+smart-contracts/ ignition/deployments/chain-31337
+
+
+# =============== Client Folder ===============
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+client/node_modules  
+client/.pnp
+client/. pnp.*
+client/.yarn/*
+client/.yarn/patches
+client/.yarn/plugins
+client/.yarn/releases
+client/.yarn/versions
+
+# testing
+client/coverage
+
+# next.js
+client/.next/
+client/out/
+
+# production
+client/build
+
+# misc
+client/.DS_Store
+client/*.pem
+
+# debug
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
+
+# env files (can opt-in for committing if needed)
+client/.env*
+
+# vercel
+client/.vercel
+
+# typescript
+client/*.tsbuildinfo
+client/next-env.d.ts
